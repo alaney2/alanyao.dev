@@ -1,0 +1,147 @@
+@import "../../_globalColor";
+
+.frame {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.dark-mode a {
+  color: $textColorDark;
+}
+
+.responsive-frame {
+  width: 50%;
+  height: 50vh;
+}
+
+.hidden-frame {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .responsive-frame {
+    width: 90%;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .responsive-frame {
+    width: 80%;
+    height: 45vh;
+  }
+}
+
+.fadeOut{
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.fadeIn{
+  opacity:1;
+  display: flex;;
+  width:100%;
+  height:100%;
+  transition: width 0.5s, height 0.5s, opacity 0.5s 0s;
+
+}
+
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px ;
+  margin-top: 4rem;
+}
+
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px ;
+  margin-top: 2rem;
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.subTitle {
+  color: $subTitle !important;
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  font-size: 70px;
+  line-height: 1.1;
+  color: $textColor !important;
+}
+
+.greeting-text-p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.greeting-image-div > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hidden-visibility {
+  visibility: hidden;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
+
+.button-greeting-div {
+  justify-content: space-around;
+  -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+
+.greeting-main {
+  display: block;
+}
+
+.greeting-text {
+  text-align: center;
+}
+
+.greeting-text-p {
+  line-height: normal;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .greeting-text {
+    font-size: 30px;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main {
+    width: auto;
+  }
+}

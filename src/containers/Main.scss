@@ -1,0 +1,21 @@
+@import "../_globalColor";
+
+.bg-custom-dark {
+  min-height: 100vh;
+  height: auto;
+  background-color: #171c28;
+  width: 100%;
+}
+
+.bg-custom-light {
+  min-height: 100vh;
+  height: auto;
+  background-color: #f5f2f4;
+  width: 100%;
+}
+
+.dark-mode {
+  background-color: $darkBackground;
+  color: white;
+  transition: "0.1s";
+}

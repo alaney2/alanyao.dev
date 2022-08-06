@@ -1,0 +1,8 @@
+{
+  "short_name": "Alan Yao Portfolio",
+  "name": "Alan Yao Portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6c63ff",
+  "background_color": "#ffffff"
+}
