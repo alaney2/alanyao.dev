@@ -13,7 +13,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/alan-e-yao/",
   gmail: "alaney2@illinois.edu",
   instagram: "https://www.instagram.com/alan3yao",
-  twitter: "https://www.twitter.com/ALan_E_Y",
+  // twitter: "https://www.twitter.com/ALan_E_Y",
   stackoverflow: "https://stackoverflow.com/users/15632074/alan-yao",
   display: true
 };
