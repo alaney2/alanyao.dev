@@ -4,7 +4,7 @@ const greeting = {
   username: "Alan Yao",
   title: "Hey! Alan here",
   subTitle: "Currently studying Stats + CS at UIUC!",
-  resumeLink: "https://drive.google.com/file/d/1p7pk15A7wPEsmRWKRx9ugfNH0qDPFtMK/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/11eM6JFajxILd5GzsmN8_g0WtGUXxaKwl/view?usp=sharing",
   displayGreeting: true
 };
 
