@@ -50,7 +50,7 @@ export default function Greeting() {
                 />
               </div>
               <div className={`frame ${resumeVisible ? 'fadeIn' : 'fadeOut'}`}>
-                <iframe className={`${resumeVisible ? 'responsive-frame' : 'hidden-frame'}`} src="https://drive.google.com/file/d/1p7pk15A7wPEsmRWKRx9ugfNH0qDPFtMK/preview" allow="autoplay" title="Resume"></iframe>
+                <iframe className={`${resumeVisible ? 'responsive-frame' : 'hidden-frame'}`} src={greeting.resumeLink} allow="autoplay" title="Resume"></iframe>
               </div>
             </div>
           </div>
