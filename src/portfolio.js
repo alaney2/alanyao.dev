@@ -3,7 +3,7 @@
 const greeting = {
   username: "Alan Yao",
   title: "Hey! Alan here",
-  subTitle: "Currently studying Stats + CS at UIUC!",
+  subTitle: "10/5 - I am making a new site from scratch because this one is too boring.",
   resumeLink: "https://drive.google.com/file/d/11eM6JFajxILd5GzsmN8_g0WtGUXxaKwl/preview",
   displayGreeting: true
 };
