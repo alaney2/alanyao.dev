@@ -4,7 +4,7 @@ const greeting = {
   username: "Alan Yao",
   title: "Hey! Alan here",
   subTitle: "10/5 - I am making a new site from scratch because this one is too boring. ",
-  resumeLink: "https://drive.google.com/file/d/1hYho8OdGa2vupuWb-AT1WYJlurvYPWZ0/preview",
+  resumeLink: "https://drive.google.com/file/d/1u1SDYLXXxMqx63ShS-PRuKaercG5A-So/preview",
   displayGreeting: true
 };
 
